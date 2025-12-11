@@ -18,18 +18,18 @@ namespace Day1
 
                 Clicks = int.Parse(line[1..]);
                 Direction = line[..1] == "R" ? 1 : -1;
-                Console.WriteLine($"Processing line: {line}, Clicks: {Clicks}, Direction: {Direction}, CurrentPosition: {CurrentPosition}");
+                //Console.WriteLine($"Processing line: {line}, Clicks: {Clicks}, Direction: {Direction}, CurrentPosition: {CurrentPosition}");
 
                 int NewPosition = CurrentPosition + Clicks * Direction;
 
                 if(Math.Sign(NewPosition) != Math.Sign(CurrentPosition) && CurrentPosition != 0)
                 {
-                    Console.WriteLine("Partial rotation detected. Incrementing ZerosCount by 1.");
+                    //Console.WriteLine("Partial rotation detected. Incrementing ZerosCount by 1.");
                     ZerosCount ++;
                 }
 
                 WholeRotations = Math.Abs(NewPosition) / MaxValue;
-                Console.WriteLine($"Whole rotations: {WholeRotations}");
+                //Console.WriteLine($"Whole rotations: {WholeRotations}");
                 ZerosCount += WholeRotations;
 
                 NewPosition %= MaxValue;
@@ -40,9 +40,9 @@ namespace Day1
                 }
 
                 CurrentPosition = NewPosition;
-                Console.WriteLine($"ZerosCount so far: {ZerosCount}");
-                Console.WriteLine($"Updated CurrentPosition to: {CurrentPosition}");
-                Console.WriteLine("-----");
+                // Console.WriteLine($"ZerosCount so far: {ZerosCount}");
+                // Console.WriteLine($"Updated CurrentPosition to: {CurrentPosition}");
+                // Console.WriteLine("-----");
             }
 
             Console.WriteLine($"Number of times at zero: {ZerosCount}");
