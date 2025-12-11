@@ -1,0 +1,15 @@
+C:\dev\AoC2025\Day2\bin\Debug\net9.0\Day2.exe
+C:\dev\AoC2025\Day2\bin\Debug\net9.0\Day2.deps.json
+C:\dev\AoC2025\Day2\bin\Debug\net9.0\Day2.runtimeconfig.json
+C:\dev\AoC2025\Day2\bin\Debug\net9.0\Day2.dll
+C:\dev\AoC2025\Day2\bin\Debug\net9.0\Day2.pdb
+C:\dev\AoC2025\Day2\obj\Debug\net9.0\Day2.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\AoC2025\Day2\obj\Debug\net9.0\Day2.AssemblyInfoInputs.cache
+C:\dev\AoC2025\Day2\obj\Debug\net9.0\Day2.AssemblyInfo.cs
+C:\dev\AoC2025\Day2\obj\Debug\net9.0\Day2.csproj.CoreCompileInputs.cache
+C:\dev\AoC2025\Day2\obj\Debug\net9.0\Day2.sourcelink.json
+C:\dev\AoC2025\Day2\obj\Debug\net9.0\Day2.dll
+C:\dev\AoC2025\Day2\obj\Debug\net9.0\refint\Day2.dll
+C:\dev\AoC2025\Day2\obj\Debug\net9.0\Day2.pdb
+C:\dev\AoC2025\Day2\obj\Debug\net9.0\Day2.genruntimeconfig.cache
+C:\dev\AoC2025\Day2\obj\Debug\net9.0\ref\Day2.dll
